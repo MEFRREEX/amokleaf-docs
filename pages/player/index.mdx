@@ -1,3 +1,16 @@
+import { Cards, Card } from 'nextra/components'; import { Scale } from "lucide-react";
+
 # Для игроков
 
-Документация для игроков.
+В данном разделе находится вся нужная информация котрую нужно знать игроку.
+
+<div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', marginTop: '2rem' }}>
+  <div style={{ display: 'flex', flexDirection: 'row', gap: '1rem', flexWrap: 'wrap' }}>
+    <Card 
+      icon={<Scale color={"white"} />} 
+      title="Правила сервера" 
+      href="/player/rules"
+      style={{ width: 'min(100rem, 100%)' }}
+    />
+  </div>
+</div>
