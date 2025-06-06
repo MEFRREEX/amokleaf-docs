@@ -11,27 +11,27 @@ import { Callout, Card } from 'nextra/components'; import { Gamepad2, SquarePlay
 ## Выберите раздел документации
 
 <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', marginTop: '2rem' }}>
-  <div style={{ display: 'flex', flexDirection: 'row', gap: '1rem', flexWrap: 'wrap' }}>
+  <div style={{ display: 'flex', flexDirection: 'row', gap: '1rem', flexWrap: 'wrap', width: '100%', justifyContent: 'center' }}>
     <Card 
       icon={<Gamepad2 color={"white"} />} 
       title="Для игроков" 
       href="/player" 
       children=""
-      style={{ flex: 1, minWidth: '450px' }}
+      style={{ width: '450px', flex: '1 1 450px' }}
     />
     <Card 
       icon={<SquarePlay color={"white"} />} 
       title="Для медиа" 
       href="/media" 
       children=""
-      style={{ flex: 1, minWidth: '450px' }}
+      style={{ width: '450px', flex: '1 1 450px' }}
     />
     <Card 
       icon={<ShieldUser color={"white"} />} 
       title="Для состава" 
       href="/admin" 
       children=""
-      style={{ flex: 1, minWidth: '450px' }}
+      style={{ width: '450px', flex: '1 1 450px' }}
     />
   </div>
 </div>
