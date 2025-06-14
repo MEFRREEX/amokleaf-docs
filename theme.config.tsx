@@ -17,6 +17,10 @@ const config: DocsThemeConfig = {
       <meta property="og:description" content="Official documentation for AmokLeaf" />
     </>
   ),
+  navigation: {
+    prev: true,
+    next: true
+  }
 }
 
 export default config 
